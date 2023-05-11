@@ -1,0 +1,24 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+tr:nth-last-of-type(even){
+    background-color: skyblue;
+}
+tr:nth-of-type(odd){
+    background-color: blue;
+}
+
+td:nth-of-type(even){
+    background-color: crimson;
+    color: white;
+}
+tr{
+    font-size: 20px;
+}
+td{
+    padding: .5em;
+}
+th{
+    padding: .5em;
+}
